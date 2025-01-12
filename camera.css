@@ -1,0 +1,313 @@
+@import url(//fonts.googleapis.com/css?family=PT+Sans:400);
+@import url(//fonts.googleapis.com/css?family=PT+Sans:700);
+.camera_wrap img, 
+.camera_wrap ol, .camera_wrap ul, .camera_wrap li,
+.camera_wrap table, .camera_wrap tbody, .camera_wrap tfoot, .camera_wrap thead, .camera_wrap tr, .camera_wrap th, .camera_wrap td
+.camera_thumbs_wrap a, .camera_thumbs_wrap img, 
+.camera_thumbs_wrap ol, .camera_thumbs_wrap ul, .camera_thumbs_wrap li,
+.camera_thumbs_wrap table, .camera_thumbs_wrap tbody, .camera_thumbs_wrap tfoot, .camera_thumbs_wrap thead, .camera_thumbs_wrap tr, .camera_thumbs_wrap th, .camera_thumbs_wrap td {
+	background: none;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	list-style: none;
+    line-height: ;
+}
+.camera_wrap {
+	display: none;
+	float: none;
+	position: relative;
+	z-index: 1;
+	margin: 0 !important;
+}
+.camera_wrap img {
+	max-width: none !important;
+}
+.camera_fakehover {
+	height: 100%;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+    overflow: hidden;
+}
+.camera_wrap {
+	width: 100%;
+    overflow: hidden;
+    max-height: none;
+    max-height:700px;
+}
+.camera_src {
+	display: none;
+}
+.cameraCont, .cameraContents {
+	height: 100%;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.cameraSlide {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.cameraContent {
+	bottom: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+    overflow: hidden;
+}
+.camera_target {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	text-align: left;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+.camera_overlayer {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+.camera_target_content {
+	bottom: 0;
+	left: 0;
+	overflow: visible;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+.camera_target_content .camera_link {
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+.camera_loader {
+    background: #fff url(../img/camera-loader.gif) no-repeat center;
+	background: rgba(255, 255, 255, 0.9) url(../img/camera-loader.gif) no-repeat center;
+	border: 1px solid #ffffff;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	height: 36px;
+	left: 50%;
+	overflow: hidden;
+	position: absolute;
+	margin: -18px 0 0 -18px;
+	top: 50%;
+	width: 36px;
+	z-index: 3;
+}
+.camera_clear {
+	display: block;
+	clear: both;
+}
+.showIt {
+	display: none;
+}
+.camera_clear {
+	clear: both;
+	display: block;
+	height: 1px;
+	margin: 0px;
+	position: relative;
+}
+.slider{
+	position: relative;
+	margin-top:0;
+    z-index:1;
+    top: 0;
+}
+.camera-banner{
+	position: absolute;
+	width: 960px;
+	left: 50%;
+	margin-left: -480px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	line-height: 1em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	top: 30%;
+}
+.camera_pag {
+	position: absolute;
+	z-index: 10;
+	top:54px;
+	padding:0;
+    width: 100%;
+    text-align: center;
+	display:inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.camera-caption {
+	position: absolute;
+	top: 50%;
+    margin-top:-71px;
+	left:5%;
+	z-index:100;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    text-transform:uppercase;
+    background:#fac785;
+	color:#fff;
+    padding:38px 0 31px 39px;
+    width:470px;
+    border-left:10px solid #3c3742;
+}
+.camera-caption p {
+    margin-bottom:0;
+}
+.camera-caption > em {
+    width:8px;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:url(../img/triangle2.png) 0 center no-repeat;
+}
+.camera-caption p {
+    font:bold 42px/36px 'PT Sans';
+    float:left;
+}
+.camera-caption a {
+    color:#fff;
+    font-size:82px;
+    float:right;
+    margin-top:-10px;
+    margin-right:42px;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.camera-caption a:hover {
+    color:#3c3742;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.slider .camera_pag_ul {
+	overflow: hidden;
+	display: inline-block;
+}
+.camera_pag_ul li{
+	display: inline-block;
+	text-indent: -100px;
+	margin-left:15px;
+}
+.camera_pag_ul li:first-child {
+    margin-left:0;
+}
+.camera_pag_ul li>span{
+	cursor: pointer;
+	display: block;
+	width:24px;
+	height:24px;
+	background: url(../img/pagination.png) 0 0 no-repeat;
+	text-indent: -100px;
+	overflow: hidden;
+}
+.camera_pag_ul li>span>span{display: none;}
+.camera_pag_ul li.cameracurrent span, .camera_pag_ul li span:hover{background-position: 0 -24px;}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) {
+.camera-caption {
+    left:20%;
+}
+.camera-caption {
+    padding:61px 0 61px 39px;
+}
+.camera-caption a {
+    margin-top:0;
+}
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 980px) and (max-width: 1199px) {
+.camera-caption {
+    left: 5%;
+}
+.camera-caption {
+    padding: 38px 0 31px 39px;
+    margin-top:-71px;
+}
+.camera-caption a {
+    margin-top:-10px;
+}
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 979px){
+.camera-caption {
+    left: 5%;
+    padding: 30px 0 27px 39px;
+    margin-top: -60px;
+    width: 400px;
+}
+.camera-caption p {
+    font-size:30px !important;
+    line-height:30px !important;
+}
+.camera-caption a {
+    font-size: 62px;
+    margin-top:0;
+}
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 767px){
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 626px) and (max-width: 767px) { 
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 626px) {
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 560px) {
+}
+@media (max-width: 480px) {
+.camera-caption {
+    left: 0;
+    padding: 17px 0 17px 30px;
+    width: auto;
+    margin-top: -42px;
+}
+.camera-caption a {
+    margin-top: 0;
+    font-size:50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.camera-caption p {
+    font-size: 20px !important;
+    line-height: 23px !important;
+}
+}
+@media (max-width: 320px) {
+}

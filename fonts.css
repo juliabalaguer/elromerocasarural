@@ -33,15 +33,12 @@ h2{
 		text-decoration:none;
 		}
 h3{
-  font-size:24px;
+  font-size:1.8em;
 	line-height:1.2em;
 	font-family:"Times New Roman", Times, serif;
 	font-weight:normal;
   margin:0 0 .75em;
 }
-	h3 strong {
-		font-weight:normal
-	}
 h4{
   font-size:1em;
   margin:0 0 .2em;
