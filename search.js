@@ -1,6 +1,6 @@
 $(function(){
 	var s=location.search.replace(/^\?.*s=([^&]+)/,'$1')
-		,form=$('#search')
+		,form=$('#search-form')
 		,input=$('input[type=text]',form)
 		,results=$('#search-results').height(0)
 		,src='search/results.php'

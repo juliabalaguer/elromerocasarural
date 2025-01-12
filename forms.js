@@ -180,3 +180,8 @@
 		})
 	}
 })(jQuery)
+$(window).load(function(){
+   $('#contact-form').forms({
+	ownerEmail:'#'
+   })
+})
